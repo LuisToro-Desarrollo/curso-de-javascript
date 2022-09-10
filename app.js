@@ -1,15 +1,15 @@
-//console.log ('hola mundo');
+console.log ('hola mundo');
 //variables
 let a= 10;
-let b= 'hola ';
-let c='que tal ';
+let b= 20;
+let c= 30;
 
-const saludo = c + b;
+let suma = a +b;
+console.log(suma);
 
+let total=suma+c;
+console.log(total);
 
-c= 'hola de nuevo';
-
-console.log(saludo);
 
 
 
