@@ -7,3 +7,7 @@ if (numero<18){
 }else {
     console.log('es mayor de edad');
 }
+
+// las variables no deben empezar en numeros
+// las variables pueden empezar con _
+
