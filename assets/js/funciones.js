@@ -5,12 +5,12 @@ function saludar () {
 saludar();
 saludar();
 
-let nombre= prompt('Por favor ingrese su nombre','ingrese su nombre')
 function saludar2(nombre){
 console.log('Hola' + nombre);
+return 1;
 }
-saludar2(nombre);
-saludar2('karlos');
+let retornoSaludar=saludar2('karlos');
+console.log(retornoSaludar);
 saludar2('maria');
 saludar2('ferde');
 
@@ -25,4 +25,33 @@ const saludarFlecha2=(nombre)=>{
 console.log('hola' + nombre)
 };
 saludarFlecha2('carlos');
+
+function sumar(a,b){
+   return a+b ;
+}
+console.log(sumar(1,3));
+
+const sumar2=(a,b)=>{
+return a+b;
+}
+console.log(sumar2(20,10));
+
+// si solo es el return en la funcion
+const sumar3=(a,b)=>a+b;
+console.log(sumar3(12,7));
+
+function getAleatorio(){
+return Math.random();
+};
+console.log( getAleatorio() );
+
+//trasformar a funcion de flechas
+
+const getAleatorio2=()=>Math.random();
+console.log(getAleatorio2());
+
+
+
+
+
 
