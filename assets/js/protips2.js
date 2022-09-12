@@ -20,13 +20,12 @@ imprimePropiedades( tony );
 
 **/
 
-const imprimePropiedades = (personaje ) => {
-    console.log(personaje.nombre);
-    console.log(personaje.CodeName);
-    console.log(personaje.vivo);
-    console.log(personaje.edad);
-    console.log(personaje.trajes);
-
+const imprimePropiedades = ({nombre,CodeName,vivo,edad,trajes }) => {
+    console.log({nombre});
+    console.log({CodeName});
+    console.log({vivo});
+    console.log({edad});
+    console.log({trajes});
 }
 
 imprimePropiedades( tony );
